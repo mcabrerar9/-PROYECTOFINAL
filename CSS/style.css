@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: url(https://cdn2.vectorstock.com/i/1000x1000/35/26/abstract-blue-background-with-wave-vector-4683526.jpg);
+background-size: cover;
+background-attachment: fixed;
+}
+
+#qwe{
+    text-align: right;
+
+}
+#container {
+    width: 900px;
+    margin: 0px auto;
+    border: 75px solid rgb(63, 5, 5);
+    text-align: center;
+    
+}
+header{
+    background: rgb(47, 96, 57);
+    color: rgb(18, 198, 238);
+    height: 150px;
+    width: 98%;
+    text-align: center;
+    border-style: ridge;
+    border-color: rgb(17, 217, 73) rgb(10, 194, 81) rgb(14, 160, 14) rgb(23, 180, 15);
+    border-width: 10px 10px 5px 10px;
+}
+#content{
+    float: left;
+    background: rgba(61, 228, 31, 0);
+    width: 100%;
+    text-align: center;
+    
+}
+form{
+    background-color: rgb(123, 202, 188);
+    border-radius: 3px;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    margin: 0 auto;
+    width: 75%;
+}
+label{
+    font-size: 20px;
+}
+.field{
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+}
+.btn{
+    border-radius: 3px;
+    display: inline;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-shadow: 0 1PX 0 rgba(255, 255, 255, 0.3);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+.btn-green{
+    color: rgb(255, 255, 255);
+    background-color: #3cc93f;
+    width: 280px;
+    font-size: 15px;
+}
+.btn-green:hover{
+    background: #37b839;
+}
+.btn-green:active{
+    background-color: #29962a;
+}
+p{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #250101;
+    border-left: 100px ridge#c3d00bf8;
+    border-right: 100px ridge #bdc60bf8;
+    border-top: 15px ridge#13caef;
+    text-shadow: -1px -1px 1px #aaa,
+             0px 4px 1px rgba(247, 239, 239, 0.936),
+             4px 4px 5px rgba(198, 231, 11, 0.7),
+             0px 0px 7px rgba(0,0,0,0.4);
+             text-align: center;
+}

@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: url(https://cdn2.vectorstock.com/i/1000x1000/35/26/abstract-blue-background-with-wave-vector-4683526.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+#container {
+    width: 1200px;
+    margin: 0px auto;
+    border: 3px solid black;
+    border-left:8px double #06f054;
+    border-top:8px dotted #0606f0;
+    border-right:8px double #d5e801;
+}
+
+header{
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    height: 70px;
+    width: 98.5%;
+    text-align: center;
+    line-height: 55px;
+    border-bottom:15px ridge hsl(186, 93%, 50%)9;
+    border-top:15px ridge hsl(186, 93%, 50%);
+    border-left:15px ridge hsl(186, 93%, 50%);
+    border-right:15px ridge hsl(186, 93%, 50%);
+ 
+}
+
+
+#content{
+    float: left;
+    background: rgb(123, 202, 188);
+    width: 98%;
+    text-align: center;
+    color: #151514;
+    border-bottom: 10px ridge hsl(186, 93%, 50%);
+    border-top: 15px ridge#f1e509;
+    border-right: 15px ridge#1300e9;
+    border-left: 15px ridge hsl(243, 93%, 50%);
+}
+
+.clearfix{
+    clear: both;
+}
+#imgd{
+    display: none;
+}
+#imgq{
+    display: none;
+}
+
+.btn{
+    border-radius: 3px;
+    display: inline;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-shadow: 0 1PX 0 rgba(255, 255, 255, 0.3);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+.btn-green{
+    color: rgb(255, 255, 255);
+    background-color: #3cc93f;
+    width: 280px;
+    font-size: 15px;
+}
+.btn-green:hover{
+    background: #37b839;
+}
+.btn-green:active{
+    background-color: #29962a;
+}
+form{
+    background-color: rgb(53, 208, 174);
+    border-radius: 3px;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    margin: 0 auto;
+    width: 75%;
+    border-left:10px ridge hsl(186, 93%, 50%);
+    border-bottom:10px ridge hsl(186, 93%, 50%);
+    border-right:10px ridge hsl(186, 93%, 50%);
+    border-top:10px ridge hsl(186, 93%, 50%);
+}
+.field{
+    border: solid 1px #999;
+    padding: 10px;
+    width: 280px;
+    background-color: rgb(18, 17, 17);
+    color: gray;
+    font-size: 15px;
+    text-align: center;
+}
+
+input[type=number]{
+    border: solid black;
+    border-radius: 40px;
+    width: 50%;
+    padding: 8px 8px;
+    text-align: center;
+    font-size: 25px;
+    border-top:15PX ridge #171616;
+    border-left:15PX ridge #0d051e;
+    border-right:15PX ridge#181818;
+    border-bottom : 15px ridge #111111;
+}
+label{
+    font-size: 25px;
+    
+}
+p{
+    text-shadow: -1px -1px 1px #aaa,
+             0px 4px 1px rgba(247, 239, 239, 0.936),
+             4px 4px 5px rgba(0, 0, 0, 0.7),
+             0px 0px 7px rgba(0,0,0,0.4);
+             text-align: center;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #250101;
+    border-left: 200px ridge#c3d00bf8;
+    border-right: 200px ridge #bdc60bf8;
+    border-top: 15px ridge#00c70a;
+}

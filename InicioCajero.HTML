@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATM PROYECT)</title>
+    <script src="https://kit.fontawesome.com/8eb2c48e76.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSS/style.css" />
+
+</head>
+
+<body>
+
+   <br><br><br>
+    <div id="container">
+        <div align="center"><font color="#FFFFFF" size="+3">
+            <marquee bgcolor="#000000" direction="right" loop="20">ALGORITHM PROJECT</marquee></font></div>
+        <img SRC="imagenes/umg logo.png" width="500" height="150"
+        <br> 
+        <br>
+    <p> OSMAR DAVID GUERRA 0909-22-20146</p>
+    <P> MARJORIE LISSETH CABRERA RAMOS 0909-22-16774</P>
+
+<section id="content">
+
+    <form action="">
+        
+        <header>
+            <br><br><br>
+        <h2>SERVICIO ATM</h2>
+
+        </header>
+        
+        <br><br>
+        
+        <div class="images">
+            <img src="imagenes/ingresa tu pin.jpg" width="550" height="250" />
+        </div>
+
+        <br><br>
+        
+        <label for=""><i class="fa-regular fa-user"></i> INGRESE USUARIO</label><br>
+        <input type="text" class="field" name="usuario"id="" placeholder="XXXXX"> <br><br>
+
+        <label for=""><i class="fa-solid fa-key"></i> INGRESE PIN</label><br>
+        <input type="password" class="field" name="contraseña" id="" placeholder="XXXX">
+        <br><br>
+        <input type="button" class="btn btn-green"  value="Ingresar" onclick="login(this.form)">
+        <br><br>
+           
+    </form>   
+
+    <script>
+        function login(form){
+            if (form.usuario.value=="20146","16774")
+            
+            {
+                if (form.contraseña.value=="2022") 
+                {
+                    location="menu.html";
+
+                    
+                } else {
+                    alert("Error de pin intente de nuevo");
+                }
+            } else {
+                alert("Error de Usuario");
+            }
+            
+        }
+
+
+    </script>
+
+</section>
+
+</body>
+
+</html>

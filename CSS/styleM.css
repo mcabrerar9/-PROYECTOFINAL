@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(https://wc.wallpaperuse.com/wallp/79-796213_s.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#neon1{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: rgb(1, 6, 76);
+    letter-spacing: 4px;
+    font-size: 24px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+#neon1:hover{
+    background: #4004f6;
+    box-shadow: 0 0 100px #00c70a, 0 0 40px #00c70a, 0 0 80px #00c70a;
+    transition-delay: 0.1s;
+}
+.btn{
+    border-radius: 3px;
+    display: inline;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-shadow: 0 1PX 0 rgba(255, 255, 255, 0.3);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+.btn-green{
+    color: rgb(255, 255, 255);
+    background-color: #0aeb7e;
+    width: 280px;
+}
+.btn-green:hover{
+    background: #37b839;
+}
+.btn-green:active{
+    background-color: #29962a;
+}
+#container {
+    width: 1200px;
+    margin: 0px auto;
+    border: 0px solid #f0ac3f;
+}
+
+header{
+    background: rgb(23, 27, 22);
+    color: gray;
+    height: 100px;
+    width: 99.3%;
+    text-align: center;
+    line-height: 125px;
+    border-right: 5px ridge#310ee1;
+    border-top: 5px ridge#00c70a;
+    border-left: 5px ridge #f10804;
+    border-bottom: 2px ridge rgb(215, 225, 25);
+    
+}
+
+
+#content{
+    float: left;
+    background: rgb(69, 188, 152);
+    width: 97.8%;
+    text-align: center;
+    border-bottom:15px ridge hsl(186, 93%, 50%)9;
+    border-top:15px ridge hsl(186, 93%, 50%);
+    border-left:15px ridge hsl(186, 93%, 50%);
+    border-right:15px ridge hsl(186, 93%, 50%);
+}
+p{
+    text-shadow: -1px -1px 1px #aaa,
+    0px 4px 1px rgba(245, 245, 245, 0.985),
+    4px 4px 5px rgba(233, 237, 5, 0.7),
+    0px 0px 7px rgba(24, 226, 10, 0.4);
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #060100;
+    border-left: 125px ridge#d3f707f8;
+    border-right: 200px ridge #d8ea0f;
+    border-top: 15px ridge#00c70a;
+}
+hr{
+    border: solid rgb(10, 10, 10);
+    border-left: 500px ridge#d3f707f8;
+    border-right: 500px ridge #d8ea0f;
+    border-bottom:50px ridge #1a10d7;
+    border-top: 50px ridge#209007;
+}
