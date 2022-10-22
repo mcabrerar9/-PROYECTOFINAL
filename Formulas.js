@@ -2,27 +2,27 @@
 
   function formula1() {
     var CantidadT=parseInt(document.getElementById('Cant').value);
-    var quetzales=parseInt(document.getElementById('CuentaQ').value);
-    var dolares=parseInt(document.getElementById('CuentaD').value);
+    var quetzales=parseInt(document.getElementById('QUETZALES').value);
+    var dolares=parseInt(document.getElementById('DOLARES').value);
 
-    document.getElementById('CuentaQ').value=(quetzales+CantidadT);
+    document.getElementById('QUETZALES').value=(quetzales+CantidadTotal);
     
 }
  
 function formula2() {
     var CantidadT=parseInt(document.getElementById('Cant').value);
-    var quetzales=parseInt(document.getElementById('CuentaQ').value);
-    var dolares=parseInt(document.getElementById('CuentaD').value);
+    var quetzales=parseInt(document.getElementById('QUETZALES').value);
+    var dolares=parseInt(document.getElementById('DOLARES').value);
 
-    document.getElementById('CuentaD').value=(dolares+(CantidadT/8));
+    document.getElementById('DOLARES').value=(dolares+(CantidadTotal/8));
     
 }
 
 function formula3() {
     var CantidadT=parseInt(document.getElementById('Cant').value);
-    var quetzales=parseInt(document.getElementById('CuentaQ').value);
+    var quetzales=parseInt(document.getElementById('QUETZALES').value);
 
-    document.getElementById('CuentaQ').value=(quetzales-CantidadT);
+    document.getElementById('QUETZALES').value=(quetzales-CantidadTotal);
 
     alert ("TRANSACCION  REALIZADA");
     
@@ -31,9 +31,9 @@ function formula3() {
 function formula4() {
     var CantidadT=parseInt(document.getElementById('Cant').value);
    
-    var dolares=parseInt(document.getElementById('CuentaD').value);
+    var dolares=parseInt(document.getElementById('DOLARES').value);
 
-    document.getElementById('CuentaD').value=(dolares-(CantidadT/8));
+    document.getElementById('DOLARES').value=(dolares-(CantidadTotal/8));
 
     alert ("TRANSACCION  REALIZADA");    
 }
