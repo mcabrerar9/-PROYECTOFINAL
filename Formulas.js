@@ -1,7 +1,7 @@
 
 
   function formula1() {
-    var CantidadT=parseInt(document.getElementById('Cant').value);
+    var CantidadTotal=parseInt(document.getElementById('Cant').value);
     var quetzales=parseInt(document.getElementById('QUETZALES').value);
     var dolares=parseInt(document.getElementById('DOLARES').value);
 
@@ -10,7 +10,7 @@
 }
  
 function formula2() {
-    var CantidadT=parseInt(document.getElementById('Cant').value);
+    var CantidadTotal=parseInt(document.getElementById('Cant').value);
     var quetzales=parseInt(document.getElementById('QUETZALES').value);
     var dolares=parseInt(document.getElementById('DOLARES').value);
 
@@ -19,7 +19,7 @@ function formula2() {
 }
 
 function formula3() {
-    var CantidadT=parseInt(document.getElementById('Cant').value);
+    var CantidadTotal=parseInt(document.getElementById('Cant').value);
     var quetzales=parseInt(document.getElementById('QUETZALES').value);
 
     document.getElementById('QUETZALES').value=(quetzales-CantidadTotal);
@@ -29,7 +29,7 @@ function formula3() {
 }
 
 function formula4() {
-    var CantidadT=parseInt(document.getElementById('Cant').value);
+    var CantidadTotal=parseInt(document.getElementById('Cant').value);
    
     var dolares=parseInt(document.getElementById('DOLARES').value);
 
