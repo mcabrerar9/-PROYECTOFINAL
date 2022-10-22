@@ -31,25 +31,7 @@ body{
     box-shadow: 0 0 100px #00c70a, 0 0 40px #00c70a, 0 0 80px #00c70a;
     transition-delay: 0.1s;
 }
-.btn{
-    border-radius: 3px;
-    display: inline;
-    padding: 20px 15px;
-    text-decoration: none;
-    text-shadow: 0 1PX 0 rgba(255, 255, 255, 0.3);
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
-}
-.btn-green{
-    color: rgb(255, 255, 255);
-    background-color: #0aeb7e;
-    width: 280px;
-}
-.btn-green:hover{
-    background: #37b839;
-}
-.btn-green:active{
-    background-color: #29962a;
-}
+
 #container {
     width: 1200px;
     margin: 0px auto;
