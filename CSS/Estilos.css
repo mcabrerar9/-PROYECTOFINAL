@@ -46,9 +46,6 @@ header{
     border-left: 15px ridge hsl(243, 93%, 50%);
 }
 
-.clearfix{
-    clear: both;
-}
 #imgd{
     display: none;
 }
